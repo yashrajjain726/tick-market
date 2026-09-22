@@ -1,0 +1,16 @@
+**/.dart_tool/
+**/build/
+**/.idea/
+**/*.iml
+**/local.properties
+**/.flutter-plugins*
+.DS_Store
+*.log
+artifacts/
+**/node_modules/
+.env
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/.kotlin/

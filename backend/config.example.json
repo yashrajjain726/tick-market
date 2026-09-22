@@ -1,0 +1,25 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "seed": 42,
+  "debug": true,
+  "maxClients": 250,
+  "maxHttpConnections": 512,
+  "market": {
+    "symbol": "BTC-USD",
+    "name": "Bitcoin",
+    "baseAsset": "BTC",
+    "quoteAsset": "USD",
+    "quoteSign": "$",
+    "badge": "₿",
+    "initialPrice": 6742000,
+    "bookLevels": 20
+  },
+  "policy": {
+    "periods": { "full": 100, "degraded": 500, "minimal": 2000 },
+    "downgradeReports": 2,
+    "upgradeReports": 4,
+    "dwellMs": 5000,
+    "missingReportsMs": 15000
+  }
+}

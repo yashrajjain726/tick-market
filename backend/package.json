@@ -1,0 +1,18 @@
+{
+  "name": "tick-market-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/main.mjs",
+    "test": "node --test",
+    "load-check": "node scripts/load-check.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.3",
+    "zod": "4.6.5"
+  }
+}
